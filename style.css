@@ -1,0 +1,25 @@
+#body{
+    background-color: white;
+}
+img{
+    height: 500px;
+}
+#carouselExampleIndicators{
+    width: 75%;
+    margin: auto;
+}
+#aptmDescription{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col{
+    display: inline;
+}
+.modalImages{
+    height: 100px;
+    width: 100px;
+}
+#modalimage{
+    height: 250px;
+}
