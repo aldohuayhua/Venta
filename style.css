@@ -1,11 +1,12 @@
 #body{
     background-color: white;
 }
-img{
-    height: 500px;
+.carImg{
+    height: 15%;
+    width: 100%;
 }
 #carouselExampleIndicators{
-    width: 75%;
+    width: 50%;
     margin: auto;
 }
 #aptmDescription{
@@ -13,8 +14,8 @@ img{
     margin-left: 10%;
     margin-right: 10%;
 }
-.col{
-    display: inline;
+.column{
+    display: inline-block;
 }
 .modalImages{
     height: 100px;

@@ -25,7 +25,7 @@
     <!-- Nav Bar beginning -->
     <div id="navBar">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand text-white" href="#" >Garcia Real Estate</a>
+            <a class="navbar-brand text-white" href="#">Garcia Real Estate</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,13 +55,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img1.jfif" class="d-block w-100" alt="img1">
+                <img class="carImg" src="img1.jfif" class="d-block w-100" alt="img1">
             </div>
             <div class="carousel-item">
-                <img src="img2.jfif" class="d-block w-100" alt="img2">
+                <img class="carImg" src="img2.jfif" class="d-block w-100" alt="img2">
             </div>
             <div class="carousel-item">
-                <img src="img3.jfif" class="d-block w-100" alt="img3">
+                <img class="carImg" src="img3.jfif" class="d-block w-100" alt="img3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -86,27 +86,48 @@
         </p>
         <!-- phone number link start -->
         <h4> <a href="http://www.google.com">Llame para reservar 123-345-7856</a></h4>
-        <!-- phone number link start -->
-        <div class="col col_3">
+        <!-- phone number link end -->
+        <div class="column" class="col col_3">
             <h4>Fotos</h4>
-            <img src="" alt="">
             <!-- Button trigger modal -->
-            <img class="modalImages" src="img1.jfif" alt="img1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"></img>
-            <img class="modalImages" src="img2.jfif" alt="img1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"></img>
-            <img class="modalImages" src="img3.jfif" alt="img1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"></img>
-
+            <img class="modalImages" src="img1.jfif" alt="img1" type="button" class="btn btn-primary"
+                data-toggle="modal" data-target="#exampleModalCenter"></img>
+            <img class="modalImages" src="img2.jfif" alt="img1" type="button" class="btn btn-primary"
+                data-toggle="modal" data-target="#exampleModalCenter2"></img>
+            <img class="modalImages" src="img3.jfif" alt="img1" type="button" class="btn btn-primary"
+                data-toggle="modal" data-target="#exampleModalCenter3"></img>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <!-- Modal -->
             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content" id="modalimage">
-                            <img id="modalimage" src="img1.jfif" alt="img1">
+                    <div class="modal-content">
+                        <img id="modalimage" src="img1.jfif" alt="img1">
                     </div>
                 </div>
             </div>
-            
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <img id="modalimage" src="img2.jfif" alt="img3">
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <img id="modalimage" src="img3.jfif" alt="img3">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col col_3">
+        <div class="column" class="col col_3">
             <h4>Detalles</h4>
             <ul>
                 <li>2 Recámaras</li>
@@ -119,7 +140,7 @@
                 <li>Propiedad segura para niños</li>
             </ul>
         </div>
-        <div class="col col_3">
+        <div class="column" class="col col_3">
             <h4>Amenidades</h4>
             <ul>
                 <li>Camarista</li>
@@ -128,6 +149,8 @@
                 <li>Terraza con desayunador</li>
                 <li>Acceso a playa</li>
             </ul>
+            <br>
+            <br>
         </div>
 
     </div>
